@@ -1,0 +1,87 @@
+[
+    {
+      "recipe_image": "https://i.ibb.co/1vBC9tn/item1.png",
+      "recipe_id": "001",
+      "recipe_name": "Spaghetti Bolognese",
+      "short_description": "Classic Italian pasta dish with savory meat sauce..",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaf",
+        "400 g mushroom"
+      ],
+      "preparing_time": "30 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/mHJ54Cd/item2.png",
+      "recipe_id": "002",
+      "recipe_name": "Chicken Caesar Salad",
+      "short_description": "Classic Italian pasta dish with savory meat sauce..",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaf",
+        "400 g mushroom"
+      ],
+      "preparing_time": "45 min",
+      "calories": "480 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/1vBC9tn/item1.png",
+      "recipe_id": "003",
+      "recipe_name": "Avocado Toast",
+      "short_description": "Classic Italian pasta dish with savory meat sauce.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaf",
+        "400 g mushroom"
+      ],
+      "preparing_time": "10 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/mHJ54Cd/item2.png",
+      "recipe_id": "004",
+      "recipe_name": "Vegetable Stir-Fry",
+      "short_description": "Classic Italian pasta dish with savory meat sauce.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaf",
+        "400 g mushroom"
+      ],
+      "preparing_time": "25 min",
+      "calories": "180 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/1vBC9tn/item1.png",
+      "recipe_id": "005",
+      "recipe_name": "Lemon Garlic Shrimp Pasta",
+      "short_description": "Classic Italian pasta dish with savory meat sauce.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaf",
+        "400 g mushroom"
+      ],
+      "preparing_time": "20 min",
+      "calories": "340 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co/mHJ54Cd/item2.png",
+      "recipe_id": "006",
+      "recipe_name": "Caprese Salad",
+      "short_description": "Classic Italian pasta dish with savory meat sauce.",
+      "ingredients": [
+        "550 g chicken",
+        "120 ml soy sauce",
+        "200 g basil leaf",
+        "400 g mushroom"
+      ],
+      "preparing_time": "15 min",
+      "calories": "220 calories"
+    }
+  ]
+  
