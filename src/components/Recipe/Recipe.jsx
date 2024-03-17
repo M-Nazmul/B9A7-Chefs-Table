@@ -4,7 +4,7 @@ import FireIcon from '../../assets/images/fire.png';
 import { PropTypes } from 'prop-types';
 function Recipe({recipe}) {
     console.log(recipe)
-    const {recipe_image, recipe_name, short_description, preparing_time,calories} = recipe;
+    const {recipe_image, recipe_name, short_description, preparing_time, calories, ingredients} = recipe;
     return (
         <div>
             <div className="card max-w-96 bg-base-100 border shadow-xl mx-6 mb-6">
@@ -14,6 +14,11 @@ function Recipe({recipe}) {
                     <p>{short_description}</p>
                     <div className="border-y py-5">
                         <h2 className="text-[18px] font-medium">Ingredients: 6</h2>
+                        <p>
+                            {
+                                ingredients.map(ingredient => <li key={ingredient.recipe_id}><a href='#' />{ingredient}</li>)
+                            }
+                        </p>
                     </div>
                     <div className='flex items-center'>
                         <p className='flex items-center gap-2'><span><img src={TimeIcon} alt="" /></span>{preparing_time}</p>

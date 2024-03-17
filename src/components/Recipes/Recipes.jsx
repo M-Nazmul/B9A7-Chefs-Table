@@ -15,7 +15,7 @@ function Recipes() {
     }, [])
     return (
         <div>
-            <div className="border grid md:grid-cols-1 lg:grid-cols-2">
+            <div className="grid md:grid-cols-1 lg:grid-cols-2">
                 {
                     recipes.map(recipe => <Recipe key={recipe.recipe_id} recipe={recipe}></Recipe>)
                 }
