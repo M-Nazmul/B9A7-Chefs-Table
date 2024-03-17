@@ -4,7 +4,7 @@ import Profile from '../../assets/images/profile.png'
 function Navbar() {
     return (
       <div>
-        <div className="max-w-[1320px] mx-auto  navbar bg-base-100">
+        <div className="max-w-[1320px] mx-auto  navbar bg-base-100 md:my-7">
           <div className="navbar-start">
             <div className="dropdown">
               <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
