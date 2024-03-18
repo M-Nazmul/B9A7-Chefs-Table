@@ -2,8 +2,9 @@
 import TimeIcon from '../../assets/images/time.png';
 import FireIcon from '../../assets/images/fire.png';
 import { PropTypes } from 'prop-types';
-function Recipe({recipe}) {
-    console.log(recipe)
+function Recipe({recipe, handleAddChefsTable}) {
+
+    // console.log(recipe);
     const {recipe_image, recipe_name, short_description, preparing_time, calories, ingredients} = recipe;
     return (
         <div>
@@ -16,7 +17,7 @@ function Recipe({recipe}) {
                         <h2 className="text-[18px] font-medium">Ingredients: 6</h2>
                         <p>
                             {
-                                ingredients.map(ingredient => <li key={ingredient.recipe_id}><a href='#' />{ingredient}</li>)
+                                ingredients.map((ingredient, idx) => <li key={idx}><a href='#' />{ingredient}</li>)
                             }
                         </p>
                     </div>
@@ -25,7 +26,7 @@ function Recipe({recipe}) {
                         <p className='flex items-center gap-2'><span><img src={FireIcon} alt="" /></span>{calories}</p>
                     </div>
                     <div className="card-actions justify-star">
-                        <button className="btn bg-[#0be58a] hover:bg-transparent hover:border-[#0be58a] rounded-full px-6">Want to Cook</button>
+                        <button onClick={() => handleAddChefsTable(recipe)} className="btn bg-[#0be58a] hover:bg-transparent hover:border-[#0be58a] rounded-full px-6">Want to Cook</button>
                     </div>
                 </div>
             </div>
@@ -35,6 +36,8 @@ function Recipe({recipe}) {
 
 
 Recipe.propTypes = {
-    recipe: PropTypes.object
+    recipe: PropTypes.object,
+    handleAddChefsTable: PropTypes.func
+
 };
 export default Recipe;
